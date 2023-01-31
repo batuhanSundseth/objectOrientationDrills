@@ -318,8 +318,7 @@ const shippingInfo = {
 }
 //do not edit the objects above
 
-let unique = [shippingInfo.street, shippingInfo.city, shippingInfo.state, shippingInfo.zipCode]
-let helensInfo = {...contactInfo, ...unique}
+let helensInfo = {...contactInfo, ...shippingInfo}
 
 //Print helensInfo to see what it looks like, there should be no repeating properties.
 
